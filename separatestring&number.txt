@@ -1,0 +1,15 @@
+Write a program to separate number and string into separate array. 
+
+const mixedArray = ["pink", 7, -10, "red", "orange", 25, "blue"];
+let number = [];
+let string = [];
+for (let i = 0; i < mixedArray.length; i++) {
+  if (typeof mixedArray[i] === "number") {
+    number.push(mixedArray[i]);
+  } else if (typeof mixedArray[i] === "string") {
+    string.push(mixedArray[i]);
+  }
+}
+console.log("Number : " + number);
+console.log("String : " + string);
+
