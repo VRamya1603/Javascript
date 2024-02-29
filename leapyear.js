@@ -7,4 +7,4 @@ function isleapyear(year) {
     return year + " is not a leap year.";
   }
 }
-console.log(isleapyear(2000));
+console.log(isleapyear(2000)); //sample Project
